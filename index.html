@@ -626,6 +626,19 @@
             text-transform: uppercase;
             letter-spacing: 1px;
         }
+        /* remove underline for links used as buttons */
+            .module-download,
+            .module-download:link,
+            .module-download:visited,
+            .module-download:hover,
+            .module-download:active,
+            .module-download:focus {
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+            line-height: normal;
+            cursor: pointer;
+        }
 
         .module-download:hover {
             transform: scale(1.05);
